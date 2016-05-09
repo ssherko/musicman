@@ -49,7 +49,7 @@ def calculate_distance_matrix(signature1, signature2, ground_distance = None, us
 
 	return np.array(dist_matrix)
 
-# This right here ... is the motherfucker. 
+# This right here ... is the sh*t. 
 def calculate_emd(signature1, signature2):
 	D = calculate_distance_matrix(signature1, signature2, ground_distance = GROUND_DISTANCES["euclidean"])
 
